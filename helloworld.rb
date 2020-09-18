@@ -1,4 +1,3 @@
-
 print "\nHello World!" + "\n"*2
 print "Digite"
 print " 2 números (inteiros): "
