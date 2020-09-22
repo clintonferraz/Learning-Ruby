@@ -8,7 +8,7 @@ nums = [1,7,25,3,44]
 
 
 for y in nums
-    puts y**2
+    puts y**2 #eleva ao quadrado
 end
 
 k = 0
