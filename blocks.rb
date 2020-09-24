@@ -26,7 +26,30 @@ end
 foo { puts "teste 01" }  #a passagem do block é obrigatoria
 foo { puts "teste 02"}
 
-foo do
+foo do                          #pode ser passado um bloco com mais de uma linha
     puts "teste 03 linha 1"
     puts "teste 03 linha 2"
 end
+puts "\n"
+
+
+def foo                 #uma forma de passar block opcionalmente
+    if block_given?
+        yield
+    else
+        puts "Bloco não informado"
+    end
+end
+
+foo
+foo { puts "Bloco informado" }
+
+
+
+
+def foo(name, &block)        #passando um parametro e um block para uma função
+    @name = name
+    block.call
+end
+
+foo('João'){ puts "Hello #{@name}"}
