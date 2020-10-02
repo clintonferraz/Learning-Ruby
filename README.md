@@ -22,7 +22,7 @@
   :clipboard:Content:
 </h1>
 <ul>
-  <li><h5><a href="/ProjetoFinal.rb">Final Project</a></h5></li>
+  <li><h5><a href="/ProjetoFinal">Final Project</a></h5></li>
   <li><a href="/arrays.rb">Arrays</a></li>
   <li><a href="/blocks.rb">Blocks</a></li>
   <li><a href="/classes.rb">Classes</a></li>
